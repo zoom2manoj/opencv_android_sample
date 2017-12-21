@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\openCV\\fresh\\NDKOpenCVTest\\openCVLibrary249\\build\\intermediates\\res\\merged\\androidTest\\debug\\values_values.arsc.flat",
+            "map": []
+        },
+        {
+            "outputFile": "D:\\openCV\\fresh\\OpenCVFaceDetectionImp\\openCVLibrary249\\build\\intermediates\\res\\merged\\androidTest\\debug\\values_values.arsc.flat",
+            "map": []
+        },
+        {
+            "outputFile": "D:\\openCV\\NDKOpenCVTest\\openCVLibrary249\\build\\intermediates\\res\\merged\\androidTest\\debug\\values_values.arsc.flat",
+            "map": []
+        },
+        {
+            "outputFile": "D:\\opencv_rnd\\open_cv_001\\openCVLibrary249\\build\\intermediates\\res\\merged\\androidTest\\debug\\values_values.arsc.flat",
+            "map": []
+        }
+    ]
+}
