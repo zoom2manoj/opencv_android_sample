@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="opencvdemo.com.ndkopencvtest.MainActivity">
+    tools:context="opencvdemo.com.ndkopencvtest.LabActivity">
 
 
-    <org.opencv.android.JavaCameraView
-        android:id="@+id/javameraview"
 
+    <ImageView
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent" />
+        android:layout_height="fill_parent"
+        android:id="@+id/imageview"/>
 
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/bnv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-
         android:layout_gravity="bottom"
         app:itemBackground="?attr/colorPrimary"
         app:itemIconTint="@android:color/darker_gray"
         app:itemTextColor="@android:color/darker_gray"
-        app:menu="@menu/activity_camera" />
+        app:menu="@menu/activity_lab" />
 </RelativeLayout>
